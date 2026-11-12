@@ -1,0 +1,27 @@
+{
+  "test_videos": 40,
+  "test_crops": 635,
+  "threshold": 0.55,
+  "original": {
+    "tn": 20,
+    "fp": 0,
+    "fn": 9,
+    "tp": 11,
+    "accuracy_pct": 77.5,
+    "fpr_pct": 0.0,
+    "fnr_pct": 45.0
+  },
+  "updated": {
+    "tn": 20,
+    "fp": 0,
+    "fn": 5,
+    "tp": 15,
+    "accuracy_pct": 87.5,
+    "fpr_pct": 0.0,
+    "fnr_pct": 25.0
+  },
+  "original_matches_prior_pi_result": true,
+  "fpr_change_percentage_points": 0.0,
+  "fnr_change_percentage_points": -20.0,
+  "retention_pass": true
+}
